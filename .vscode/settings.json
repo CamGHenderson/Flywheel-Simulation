@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "stdbool.h": "c",
+        "stdint.h": "c",
+        "graphics.h": "c"
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\CamGH\\OneDrive - Southern Alberta Institute of Technology\\Physics Simulations\\Flywheel Simulation",
+            "binaryPath": "c:\\Users\\CamGH\\OneDrive - Southern Alberta Institute of Technology\\Physics Simulations\\Flywheel Simulation\\app.exe",
+            "binaryArgs": []
+        }
+    ],
+    "makefile.additionalCompilerNames": [
+        "gcc",
+        "cc"
+    ],
+    "makefile.configurations": [
+    ]
+}
