@@ -1,0 +1,54 @@
+Date : 2025-06-05 20:58:14
+Directory : c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src
+Total : 24 files,  579 codes, 2 comments, 146 blanks, all 727 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C        |         20 |        563 |          2 |        142 |        707 |
+| C++      |          4 |         16 |          0 |          4 |         20 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                    | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                       |         24 |        579 |          2 |        146 |        727 |
+| definitions                                                                                                                             |          3 |         17 |          0 |          4 |         21 |
+| graphics                                                                                                                                |          4 |        173 |          0 |         43 |        216 |
+| physics                                                                                                                                 |          2 |         67 |          0 |         14 |         81 |
+| simulation                                                                                                                              |          9 |        224 |          2 |         63 |        289 |
+| system                                                                                                                                  |          6 |         98 |          0 |         22 |        120 |
++-----------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                                                | language | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\definitions\color.h      | C        |         10 |          0 |          2 |         12 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\definitions\dimensions.h | C++      |          4 |          0 |          1 |          5 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\definitions\units.h      | C        |          3 |          0 |          1 |          4 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\graphics\graphics.c      | C        |        130 |          0 |         35 |        165 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\graphics\graphics.h      | C        |         18 |          0 |          5 |         23 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\graphics\renderer.c      | C        |         20 |          0 |          2 |         22 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\graphics\renderer.h      | C        |          5 |          0 |          1 |          6 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\physics\physics.c        | C        |         31 |          0 |          5 |         36 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\physics\physics.h        | C        |         36 |          0 |          9 |         45 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\ball.c        | C        |         69 |          2 |         17 |         88 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\ball.h        | C++      |          7 |          0 |          1 |          8 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\controller.c  | C        |         26 |          0 |          8 |         34 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\controller.h  | C++      |          3 |          0 |          1 |          4 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\flywheel.c    | C        |         38 |          0 |         12 |         50 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\flywheel.h    | C        |          7 |          0 |          1 |          8 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\simulation.c  | C        |         46 |          0 |         14 |         60 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\telemetry.c   | C        |         26 |          0 |          8 |         34 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\telemetry.h   | C++      |          2 |          0 |          1 |          3 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\system\events.c          | C        |         28 |          0 |          5 |         33 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\system\events.h          | C        |          4 |          0 |          1 |          5 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\system\input.c           | C        |         31 |          0 |          9 |         40 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\system\input.h           | C        |          7 |          0 |          2 |          9 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\system\timer.c           | C        |         24 |          0 |          4 |         28 |
+| c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\system\timer.h           | C        |          4 |          0 |          1 |          5 |
+| Total                                                                                                                                   |          |        579 |          2 |        146 |        727 |
++-----------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

@@ -1,0 +1,26 @@
+"filename", "language", "C", "C++", "comment", "blank", "total"
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\definitions\color.h", "C", 10, 0, 0, 2, 12
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\definitions\dimensions.h", "C", 5, 0, 0, 1, 6
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\definitions\units.h", "C", 3, 0, 0, 1, 4
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\graphics\graphics.c", "C", 139, 0, 0, 38, 177
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\graphics\graphics.h", "C", 21, 0, 0, 6, 27
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\graphics\renderer.c", "C", 20, 0, 0, 2, 22
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\graphics\renderer.h", "C", 5, 0, 0, 1, 6
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\physics\physics.c", "C", 37, 0, 0, 6, 43
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\physics\physics.h", "C", 39, 0, 0, 9, 48
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\ball.c", "C", 81, 0, 0, 20, 101
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\ball.h", "C++", 0, 10, 0, 2, 12
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\controller.c", "C", 63, 0, 0, 13, 76
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\controller.h", "C++", 0, 5, 0, 1, 6
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\flywheel.c", "C", 43, 0, 0, 13, 56
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\flywheel.h", "C", 8, 0, 0, 2, 10
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\simulation.c", "C", 48, 0, 0, 15, 63
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\telemetry.c", "C", 86, 0, 1, 23, 110
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\simulation\telemetry.h", "C++", 0, 3, 0, 1, 4
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\system\events.c", "C", 28, 0, 0, 5, 33
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\system\events.h", "C", 4, 0, 0, 1, 5
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\system\input.c", "C", 41, 0, 1, 11, 53
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\system\input.h", "C", 9, 0, 0, 2, 11
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\system\timer.c", "C", 26, 0, 0, 5, 31
+"c:\Users\CamGH\OneDrive - Southern Alberta Institute of Technology\Physics Simulations\Flywheel Simulation\src\system\timer.h", "C", 4, 0, 0, 1, 5
+"Total", "-", 720, 18, 2, 181, 921

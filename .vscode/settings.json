@@ -3,7 +3,28 @@
         "stdio.h": "c",
         "stdbool.h": "c",
         "stdint.h": "c",
-        "graphics.h": "c"
+        "graphics.h": "c",
+        "sdl_ttf.h": "c",
+        "sdl_opengl.h": "c",
+        "sdl.h": "c",
+        "glew.h": "c",
+        "glu.h": "c",
+        "text_encoding": "c",
+        "sdl_gfxprimitives.h": "c",
+        "sdl2_gfxprimitives.h": "c",
+        "cmath": "c",
+        "compare": "c",
+        "cstdint": "c",
+        "timer.h": "c",
+        "math.h": "c",
+        "input.h": "c",
+        "events.h": "c",
+        "color.h": "c",
+        "units.h": "c",
+        "physics.h": "c",
+        "renderer.h": "c",
+        "flywheel.h": "c",
+        "dimensions.h": "c"
     },
     "makefile.launchConfigurations": [
         {
@@ -17,5 +38,6 @@
         "cc"
     ],
     "makefile.configurations": [
-    ]
+    ],
+    "makefile.configureOnOpen": true
 }
