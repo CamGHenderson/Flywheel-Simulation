@@ -14,7 +14,7 @@ void initializeFlywheel()
     flywheel = createCircularBody(3 inch);
     flywheel.pos.x = getGraphicsWindowWidth() / 2.0f;
     flywheel.pos.y = getGraphicsWindowHeight() / 2.0f;
-    flywheel.angularVelocity = -RPM_TO_RADS_PER_SEC(100.0f);
+    flywheel.angularVelocity = -RPM_TO_RADS_PER_SEC(4000.0f);
 }
 
 void updateFlywheel(float deltaTime)

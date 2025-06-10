@@ -22,6 +22,8 @@ void initializeSubsystems()
     initializeGraphics();
     initializeInput();
     initializeTimer();
+
+    initializeController();
 }
 
 void updateSubsystems()

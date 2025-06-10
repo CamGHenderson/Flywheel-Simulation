@@ -78,8 +78,8 @@ void drawMessages()
     drawDataMessage("Current Time ", getCurrentTime(), " sec");
     drawDataMessage("Time Scale ", getTimeScale(), "X");
 
-    setGraphicsColor(YELLOW);
-    drawLabel("Fuck you!");
+    //setGraphicsColor(YELLOW);
+    //drawLabel("Fuck you!");
 
     setGraphicsColor(RED);
     drawDataMessage("Flywheel ", fabsf(RADS_PER_SEC_TO_RPM(getFlywheelAngularVelocity())), " RPM");

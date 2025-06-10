@@ -24,7 +24,8 @@
         "physics.h": "c",
         "renderer.h": "c",
         "flywheel.h": "c",
-        "dimensions.h": "c"
+        "dimensions.h": "c",
+        "controller.h": "c"
     },
     "makefile.launchConfigurations": [
         {

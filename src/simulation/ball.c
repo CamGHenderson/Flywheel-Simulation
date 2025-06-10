@@ -70,7 +70,7 @@ void updateBall(float currentTime, float timeStep)
             timeOfProjectileRelease = currentTime;
         }
 
-        if(currentTime <= keyFrames[1].time)
+        if(currentTime <= timeOfProjectileRelease)
         {
             projectileAngle += projectileAngularVelocity * timeStep;
             moveBallToAngle(projectileAngle);

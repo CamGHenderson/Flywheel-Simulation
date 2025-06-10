@@ -1,13 +1,16 @@
 #include "controller.h"
 
+#include "../physics/physics.h"
 #include "../system/timer.h"
 #include "../system/input.h"
+#include "flywheel.h"
 
-#define TIME_SCALE_CHANGE 0.125f
+#define BASE_ANGULAR_VELOCITY RPM_TO_RADS_PER_SEC(10.0f)
 
 float currentTime = 0.0f;
 float timeStep = 0.0f;
-float timeScale = 1.0f;
+float timeScale;
+float timeScaleStep;
 
 float getTimeStep()
 {
@@ -19,6 +22,26 @@ float getTimeScale()
     return timeScale;
 }
 
+float computeBaseTimeScale()
+{
+    float ts = fabsf(BASE_ANGULAR_VELOCITY / getFlywheel().angularVelocity);
+    return ts;
+}
+
+float computeTimeScaleStep()
+{
+    float ts = computeBaseTimeScale();
+    float upperTs = ts * 10.0f;
+    float tss = (upperTs - ts) / 10.0f;
+    return tss;
+}
+
+void initializeController()
+{
+    timeScale = computeBaseTimeScale();
+    timeScaleStep = computeBaseTimeScale();
+}
+
 void updateController()
 {
     timeStep = 0.0f;
@@ -28,7 +51,7 @@ void updateController()
     {
         if(!isUpDown)
         {
-            timeScale += TIME_SCALE_CHANGE;
+            timeScale += timeScaleStep;
         }
         isUpDown = true;
     }
@@ -42,7 +65,7 @@ void updateController()
     {
         if(!isDownDown && timeScale != 0.0f)
         {
-            timeScale -= TIME_SCALE_CHANGE;
+            timeScale -= timeScaleStep;
         }
         isDownDown = true;
     }
